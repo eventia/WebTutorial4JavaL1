@@ -1,5 +1,15 @@
 ﻿# WebTutorial4Java
 
+## mySql 관련 제대로 된 세팅 :
+
+# myex_2myBatis
+
+- 버젼 설정 체크 완료 (2018.11.19)
+
+# mysqlboard
+
+- 수정으로 맞춤
+
 ## mySql 
 
 scott_db 스키마추가
