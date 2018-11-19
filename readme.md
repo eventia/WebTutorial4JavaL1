@@ -23,7 +23,7 @@ jdbc:mysql://127.0.0.1:3306/myfirstboard?characterEncoding=UTF-8&serverTimezone=
 
 관련 docs링크
 
-https://dev.mysql.com/doc/relnotes/connector-j/6.0/en/news-6-0-6.html
+https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-spring-config.html
 
 
 ## tree
