@@ -1,5 +1,17 @@
 ﻿# WebTutorial4Java
 
+#pom.xml
+
+- Java : 1.8
+- org.springframework-version : 4.2.4.RELEAS
+- org.aspectj-version : 1.6.10
+- org.slf4j-version : 1.6.6
+
+- mysql-connector-java : 8.0.13
+- mybatis : 3.4.1
+- mybatis-spring : 1.3.0
+
+
 ## mySql 관련 제대로 된 세팅 :
 
 # myex_2myBatis
