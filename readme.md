@@ -1,5 +1,31 @@
 ﻿# WebTutorial4Java
 
+## mySql 
+
+scott_db 스키마추가
+
+/*  mySql Driver 구버젼을 신버젼으로 변경 */	
+
+/*	private static final String DRIVER = "com.mysql.jdbc.Driver";*/
+
+	private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
+	
+mysql-connector-java 버전 6.xx 이상(현재 8.0 사용)에서 com.mysql.jdbc.Driver가 Deprecated 됐다고 경고메시지 발생
+com.mysql.cj.jdbc.Driver로 변경할 것(이전 com.mysql.jdbc.Driver)
+
+이전 방식에서는 jdbc:mysql://{ip주소}:{port번호}/{databaseName} 식으로 url을 설정, 사용방식이 6.x 이후에서는 serverTimezone파라미터가 필수가 되어 빠지면 에러 발생(DB연결 되지 않음)
+
+jdbc:mysql://{ip주소}:{port번호}/{databaseName}?serverTimezone=UTC 식으로 사용
+
+실제 사용예는 아래에 
+
+jdbc:mysql://127.0.0.1:3306/myfirstboard?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+
+관련 docs링크
+
+https://dev.mysql.com/doc/relnotes/connector-j/6.0/en/news-6-0-6.html
+
+
 ## tree
 
 c:/dev

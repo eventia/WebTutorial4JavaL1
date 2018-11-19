@@ -1,3 +1,2 @@
 #Tomcat publish data
-#Thu Nov 15 20:42:37 KST 2018
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\eventia\\.m2\\repository\\org\\springframework\\spring-web\\4.3.3.RELEASE\\spring-web-4.3.3.RELEASE.jar=WEB-INF/lib/spring-web-4.3.3.RELEASE.jar
+#Mon Nov 19 15:38:05 KST 2018
