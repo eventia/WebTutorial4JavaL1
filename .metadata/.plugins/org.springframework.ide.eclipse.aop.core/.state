@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="mysqlboard"/>
+<aop-project name="Spring_EX_01"/>
+<aop-project name="Spring_EX_02"/>
+<aop-project name="sp16_my"/>
+</aop-reference-model>
