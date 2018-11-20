@@ -109,6 +109,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\dev\WebTutorial4Java\mysqlboard"/>
+			<item value="D:\down\spweb00-spring438"/>
+			<item value="D:\down\spweb01-spring433"/>
 			<item value="D:\dev\javaAll\spring4fs_v1\zpool\sw16my1"/>
 			<item value="D:\down\Spring_EX_02"/>
 			<item value="D:\down\Spring_EX_01"/>
@@ -121,6 +124,7 @@
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
+			<item value="C:\dev\WebTutorial4Java\ex00\pom.xml"/>
 		</list>
 	</section>
 	<section name="SaveAsDialogSettings">
