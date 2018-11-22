@@ -46,14 +46,20 @@ CREATE table `mvc_board`(
 ) ENGINE=innodb DEFAULT CHARSET=utf8;
 
 
-INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, `BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
-  VALUES ('오프라 윈프리', '가장 큰 모험', '여러분이 할 수 있는 가장 큰 모험은 바로 여러분이 꿈꾸는 삶을 사는 것입니다.', 0, LAST_INSERT_ID()+1, 0, 0);
+INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, 
+		`BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
+  VALUES ('오프라 윈프리', '가장 큰 모험', '여러분이 할 수 있는 가장 큰 모험은 바로 여러분이 꿈꾸는 삶을 사는 것입니다.', 
+		0, LAST_INSERT_ID()+1, 0, 0);
 
-INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, `BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
-  VALUES ('랄프 왈도 에머슨', '도토리', '수천개의 숲도 한개의 도토리 열매에서 만들어진다.', 0, LAST_INSERT_ID()+1, 0, 0);
+INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, 
+		`BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
+  VALUES ('랄프 왈도 에머슨', '도토리', '수천개의 숲도 한개의 도토리 열매에서 만들어진다.', 
+		0, LAST_INSERT_ID()+1, 0, 0);
 
-INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, `BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
-  VALUES ('마이클 J. 폭스', '가족', '가족은 중요한게 아니라 모든 것입니다.', 0, LAST_INSERT_ID()+1, 0, 0);
+INSERT INTO `mvc_board` (`BNAME`,`BTITLE`, `BCONTENT`, 
+		`BHIT`,`BGROUP`, `BSTEP`, `BINDENT`)
+  VALUES ('마이클 J. 폭스', '가족', '가족은 중요한게 아니라 모든 것입니다.', 
+		0, LAST_INSERT_ID()+1, 0, 0);
 
 
 select * from mvc_board;
